@@ -12,7 +12,8 @@ public class NinjaController {
 
     @GetMapping("/welcome")
     public String welcome(){
-        return "Welcome to your register system";
+        return "Welcome to your ninja system";
     }
+
 
 }
