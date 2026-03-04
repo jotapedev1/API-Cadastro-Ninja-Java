@@ -1,5 +1,6 @@
-package com.jotapedev1.CadastroAPI;
+package com.jotapedev1.CadastroAPI.Ninja;
 
+import com.jotapedev1.CadastroAPI.Mission.MissionModel;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -17,8 +18,9 @@ public class NinjaModel {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-
-    private String name;
-    private String email;
+    private String name, email;
     private int age;
+
+    @ManyToOne //Many ninjas(current class) for one mission
+    private MissionModel missions;
 }

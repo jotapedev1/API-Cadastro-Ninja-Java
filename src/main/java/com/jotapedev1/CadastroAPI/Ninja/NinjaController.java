@@ -1,4 +1,4 @@
-package com.jotapedev1.CadastroAPI;
+package com.jotapedev1.CadastroAPI.Ninja;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
