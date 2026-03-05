@@ -2,15 +2,10 @@ package com.jotapedev1.CadastroAPI.Mission;
 
 import com.jotapedev1.CadastroAPI.Ninja.NinjaModel;
 import jakarta.persistence.*;
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import lombok.*;
 
 import java.util.List;
-
-@Getter
-@Setter
+@Data
 @AllArgsConstructor
 @NoArgsConstructor
 @Entity
